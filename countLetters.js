@@ -12,7 +12,7 @@ const countLetters = function (str) {
   let total = {};
   for (let index in str) {
     if (total[str[index]]) {
-      total = Object.assign(total, {
+      total = Object.assign(total, { 
         [str[index]]: total[str[index]] + 1
       })
       // total = {
@@ -33,3 +33,10 @@ console.log(countLetters('Hello Home!'));
 assertEqual(countLetters("Haha") , { H: 1, a: 2, h: 1 });
 assertEqual(countLetters("A") , { A: 1 });
 assertEqual(countLetters("") , {});
+
+
+
+
+
+
+

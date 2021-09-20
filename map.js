@@ -17,7 +17,7 @@ const assertArraysEqual = function (arr1, arr2) {
 }
 
 
- const words = ["ground", "control", "to", "major", "tom"];
+const words = ["ground", "control", "to", "major", "tom"];
 const words2 = ["bim","dom","cit"];
 const words3 = ["false","true"];
 
