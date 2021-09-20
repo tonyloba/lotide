@@ -10,7 +10,7 @@ const assertEqual = require('../assertEqual');
 
 };
 
-// TEST CODE
+//TEST CODE
 assertEqualTest("Lighthouse Labs", "Bootcamp");
  assertEqualTest("String", "String");
  assertEqualTest(1, 1);
