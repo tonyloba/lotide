@@ -1,3 +1,5 @@
+const findKeyByValue = require("./findKeyByValue");
+
 const assertEqual = function (actual, expected) {
   const errorMsg = '!==';
   if (actual === expected) {
@@ -20,7 +22,7 @@ const starObject = {
   "Akelarre":  { stars: 3 }
 }
 
-const findKeyByVal = function (obj, val) {
+const findKey = function (obj, val) {
   for (let key in obj){
     for(let secondKey in obj[key]){
       if(obj[key][secondKey] == val){
@@ -35,8 +37,13 @@ const findKeyByVal = function (obj, val) {
   // }
   return Notinlist;
 }
-const result = findKeyByVal(starObject,22) // => "noma"
+const result = findKey(starObject,22) // => "noma"
 console.log(result);
 
-assertEqual(findKeyByVal(starObject,22), "noma");
-assertEqual(findKeyByVal(starObject,"hhh"), "Or");
+assertEqual(findKey(starObject,22), "noma");
+assertEqual(findKey(starObject,"hhh"), "Or");
+
+
+
+
+module.exports = findKey;

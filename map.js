@@ -38,3 +38,5 @@ const results3 = map(words3, word => word[0]);
 assertArraysEqual(["bim","dom","cit"], ['b', 'd', 'c']);
 assertArraysEqual(["false","true"], ["1"]);
 assertArraysEqual(["ground", "control", "to", "major", "tom"], ["g","c","t","m","t"])
+
+module.exports = map;

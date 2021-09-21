@@ -43,4 +43,4 @@ assertEqual(letterPositions('Helllo'),
 console.log(letterPositions('Helllo'));
 
 
-
+module.exports = letterPositions;

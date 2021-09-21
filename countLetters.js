@@ -36,7 +36,7 @@ assertEqual(countLetters("") , {});
 
 
 
-
+module.exports = countLetters;
 
 
 

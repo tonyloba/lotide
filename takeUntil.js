@@ -44,4 +44,4 @@ console.log(myResult);
 
 
 
-
+module.exports = takeUntil;
